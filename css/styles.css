@@ -27,6 +27,8 @@ img {
   .header-container > * .header-logo img {
     display: block;
     width: 10%; }
+  .header-container > * span {
+    visibility: hidden; }
 
 .photo-list > * {
   width: 50%; }
@@ -36,6 +38,10 @@ form {
   padding-top: 50px;
   display: block;
   margin: 0 auto; }
+
+.form i {
+  height: 11px;
+  margin-top: 2px; }
 
 @media screen and (min-width: 768px) {
   .photo-list > * {
@@ -52,11 +58,33 @@ form {
   .header-container .header-menu {
     display: inline-block;
     vertical-align: top;
-    width: 5%; }
+    width: 6%; }
+  .header-container .header-menu span {
+    visibility: visible; }
   .header-container .header-filter {
     display: inline-block;
     vertical-align: top;
-    width: 5%; } }
+    width: 4%; }
+
+  .form > * {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    height: 50px;
+    opacity: .7;
+    display: inline-block;
+    position: relative;
+    bottom: 54px;
+    margin: -1px;
+    padding: 0; }
+
+  .form input {
+    height: 50px; }
+
+  .form i {
+    height: 30px;
+    margin-top: 18px;
+    margin-bottom: -3px; } }
 @media screen and (min-width: 1024px) {
   .photo-list > * {
     width: 24%;
@@ -72,10 +100,30 @@ form {
   .header-container .header-menu {
     display: inline-block;
     vertical-align: top;
-    width: 5%; }
+    width: 6%; }
   .header-container .header-filter {
     display: inline-block;
     vertical-align: top;
-    width: 5%; } }
+    width: 3%; }
+
+  .form > * {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    height: 50px;
+    opacity: .7;
+    display: inline-block;
+    position: relative;
+    bottom: 54px;
+    margin: -1px;
+    padding: 0; }
+
+  .form input {
+    height: 50px; }
+
+  .form i {
+    height: 30px;
+    margin-top: 18px;
+    margin-bottom: -3px; } }
 
 /*# sourceMappingURL=styles.css.map */
