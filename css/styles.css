@@ -39,7 +39,7 @@ form {
 
 @media screen and (min-width: 768px) {
   .photo-list > * {
-    width: 24%;
+    width: 33%;
     margin-bottom: 5px; }
 
   .header-container .header-logo {
@@ -63,7 +63,7 @@ form {
     margin-bottom: 5px; }
 
   .header-container .header-logo {
-    width: 95%;
+    width: 85%;
     display: inline-block;
     vertical-align: top;
     text-align: left; }
